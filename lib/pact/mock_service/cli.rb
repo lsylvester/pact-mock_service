@@ -171,7 +171,7 @@ module Pact
 
         def require_common_dependencies
           require 'webrick/https'
-          require 'rack/handler/webrick'
+          require 'rack/handler'
           require 'fileutils'
           require 'pact/mock_service/server/wait_for_server_up'
           require 'pact/mock_service/cli/pidfile'
